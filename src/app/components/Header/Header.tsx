@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { HouseIcon, MessageCircle, Rss } from "lucide-react";
 import LoginButton from "./LoginButton";
-import AuthContextProvider from "../../../lib/contexts/AuthContext";
+import AuthContextProvider from "@/lib/contexts/AuthContext";
 import Link from "next/link";
 
 export default function Header() {
